@@ -33,6 +33,6 @@ mask = extract_segmentation_mask(segmentation_polygon_folder, x, y, patch_width,
 mask = color_bin(mask)
 plt.imshow(HE_image)
 plt.imshow(mask,alpha=0.5)
-plt.savefig('result.png',dpi=1200)
+plt.savefig('result.png',dpi=600)
 
 #plt.show()
